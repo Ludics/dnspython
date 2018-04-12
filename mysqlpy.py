@@ -1,13 +1,11 @@
-#!/usr/bin/env python
-# coding=utf-8
 
 import pymysql
 
 db = pymysql.connect(host="127.0.0.1", user="root", passwd="ludics", db="dnsdata")
 cursor = db.cursor(cursor=pymysql.cursors.DictCursor)
 
-# sql = "INSERT INTO query(domainName, resolverAddr, aNum) \
-#         VALUES ('%s', '%s', '%d')" % ('tikishi.cn', '9.9.9.9', 1)
+sql = "INSERT INTO query(domainName, resolverAddr, aNum) \
+        VALUES ('%s', '%s', '%d')" % ('tikishi.cn', '9.9.9.9', 1)
 
 # try:
 #     cursor.execute(sql)
@@ -15,7 +13,7 @@ cursor = db.cursor(cursor=pymysql.cursors.DictCursor)
 # except:
 #     db.rollback()
 
-sql = "UPDATE query SET aaaaNum = '%d' WHERE queryID = '%d'" % (1,1)
+# sql = "UPDATE query SET aaaaNum = '%d' WHERE queryID = '%d'" % (1,1)
 
 try:
     cursor.execute(sql)

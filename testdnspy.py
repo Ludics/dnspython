@@ -13,7 +13,7 @@ import pymysql
 
 resolver_filename = "./sdata/opendns.csv"
 domain_filename = "./sdata/top-10k.csv"
-query_file = open("./dnsdata/query_file3.txt", "w")
+query_file = open("./dnsdata/query_file4.txt", "w")
 
 resolver_file = open(resolver_filename, "r")
 domain_file = open(domain_filename, "r")
@@ -29,7 +29,7 @@ db = pymysql.connect(host="127.0.0.1", user="root", passwd="ludics", db="dnsdata
 
 
 
-for m in range(4, 5):
+for m in range(10, 20):
     for n in range(0, len(resolvers)):
         cursor = db.cursor(cursor=pymysql.cursors.DictCursor)
         aNum = 0
@@ -57,50 +57,56 @@ for m in range(4, 5):
                     t_pos[1] = m1
                 elif answer[m1].to_rdataset().rdtype == dns.rdatatype.RRSIG:
                     hasDnssec = 1
+
             sql = "INSERT INTO query(domainName, resolverAddr, aNum, cnameNum, hasDnssec) \
                     VALUES ('%s', '%s', '%d', '%d', '%d')" % \
                     (domains[m][1], resolvers[n][0], aNum, cnameNum, hasDnssec)
+            # cursor.execute(sql)
+            # db.commit()
             try:
-                print("insert query")
-                print(sql)
                 cursor.execute(sql)
                 db.commit()
             except:
-                print("back")
                 db.rollback()
 
             query_id = cursor.lastrowid
 
-            for m1 in range(0, len(answer[t_pos[0]])):
-                ttl = answer[t_pos[0]].to_rdataset().ttl
-                addr = answer[t_pos[0]][m1]
-                sql = "INSERT INTO a_record (queryID, domainName, resolverAddr, ttl, addr) \
-                        VALUES ('%d', '%s', '%s', '%d', '%s')" % \
-                        (query_id, domains[m][1], resolvers[n][0], ttl, addr)
-                try:
-                    cursor.execute(sql)
-                    db.commit()
-                except:
-                    db.rollback()
+            if aNum is not 0:
+                for m1 in range(0, len(answer[t_pos[0]])):
+                    ttl = answer[t_pos[0]].to_rdataset().ttl
+                    addr = answer[t_pos[0]][m1]
+                    sql = "INSERT INTO a_record (queryID, domainName, resolverAddr, ttl, addr) \
+                            VALUES ('%d', '%s', '%s', '%d', '%s')" % \
+                            (query_id, domains[m][1], resolvers[n][0], ttl, addr)
+                    # cursor.execute(sql)
+                    # db.commit()
+                    try:
+                        cursor.execute(sql)
+                        db.commit()
+                    except:
+                        db.rollback()
 
-            for m1 in range(0, len(answer[t_pos[1]])):
-                ttl = answer[t_pos[1]].to_rdataset().ttl
-                cnameData = answer[t_pos[1]][m1]
-                sql = "INSERT INTO cname_record (queryID, domainName, resolverAddr, ttl, cnameData) \
-                        VALUES ('%d', '%s', '%s', '%d', '%s')" % \
-                        (query_id, domains[m][1], resolvers[n][0], ttl, cnameData)
+            if cnameNum is not 0:
+                for m1 in range(0, len(answer[t_pos[1]])):
+                    ttl = answer[t_pos[1]].to_rdataset().ttl
+                    cnameData = answer[t_pos[1]][m1]
+                    sql = "INSERT INTO cname_record (queryID, domainName, resolverAddr, ttl, cnameData) \
+                            VALUES ('%d', '%s', '%s', '%d', '%s')" % \
+                            (query_id, domains[m][1], resolvers[n][0], ttl, cnameData)
+                    # cursor.execute(sql)
+                    # db.commit()
                 try:
                     cursor.execute(sql)
                     db.commit()
                 except:
-                    db.rollback()
-     
-          
+                    db.rollback()        
             query_file.write("\n"+response.to_text()+"\n")
         except dns.exception.DNSException as e:
             sql = "INSERT INTO timeout_record (domainName, resolverAddr, exceptionData) \
                         VALUES ('%s', '%s', '%s')" % \
                         (domains[m][1], resolvers[n][0], str(e))
+            # cursor.execute(sql)
+            # db.commit()
             try:
                 cursor.execute(sql)
                 db.commit()
@@ -122,6 +128,8 @@ for m in range(4, 5):
             if aaaaNum is not 0:
                 sql = "UPDATE query SET aaaaNum = '%d' WHERE queryID = '%d'" \
                         % (aaaaNum, query_id)
+                # cursor.execute(sql)
+                # db.commit()
                 try:
                     cursor.execute(sql)
                     db.commit()
@@ -134,6 +142,8 @@ for m in range(4, 5):
                     sql = "INSERT INTO aaaa_record (queryID, domainName, resolverAddr, ttl, addr) \
                         VALUES ('%d', '%s', '%s', '%d', '%s')" % \
                         (query_id, domains[m][1], resolvers[n][0], ttl, addr)
+                    # cursor.execute(sql)
+                    # db.commit()
                     try:
                         cursor.execute(sql)
                         db.commit()
@@ -145,6 +155,8 @@ for m in range(4, 5):
             sql = "INSERT INTO timeout_record (domainName, resolverAddr, exceptionData) \
                         VALUES ('%s', '%s', '%s')" % \
                         (domains[m][1], resolvers[n][0], str(e))
+            # cursor.execute(sql)
+            # db.commit()
             try:
                 cursor.execute(sql)
                 db.commit()
