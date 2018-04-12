@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# coding=utf-8
 
 import dns.name
 import dns.query
@@ -25,16 +27,20 @@ for m in range(0, 3):
         print(domains[m][1]+" "+resolvers[n][0])
         query_file.write(domains[m][1]+" "+resolvers[n][0]+"\n")
         try:
-            request = dns.message.make_query(domains[m][1], dns.rdatatype.A, want_dnssec=True)
+            request = dns.message.make_query(domains[m][1], 
+                                             dns.rdatatype.A, 
+                                             want_dnssec=True)
             response = dns.query.udp(request, resolvers[n][0], timeout=10)
-            query_file.write(response.to_text()+"\n")
+            query_file.write("\n"+response.to_text()+"\n")
         except dns.exception.DNSException as e:  
-            query_file.write("Exception")
+            query_file.write("\nException\n")
             query_file.write(str(e))
         try:
-            request = dns.message.make_query(domains[m][1], dns.rdatatype.AAAA, want_dnssec=True)
+            request = dns.message.make_query(domains[m][1], 
+                                             dns.rdatatype.AAAA, 
+                                             want_dnssec=True)
             response = dns.query.udp(request, resolvers[n][0], timeout=10)
-            query_file.write(response.to_text()+"\n")
+            query_file.write("\n"+response.to_text()+"\n")
         except dns.exception.DNSException as e:  
             query_file.write("\nException\n")
             query_file.write(str(e))
