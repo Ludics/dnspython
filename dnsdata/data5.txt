@@ -1,0 +1,515 @@
+id 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 31 IN TXT "google-site-verification=GHb98-6msqyx_qqjGl5eRatD3QTHyVB6-xQ3gJB5UwM"
+baidu.com. 31 IN TXT "v=spf1 include:spf1.baidu.com include:spf2.baidu.com include:spf3.baidu.com a mx ptr -all"
+baidu.com. 31 IN SOA dns.baidu.com. sa.baidu.com. 2012138675 300 300 2592000 7200
+baidu.com. 31 IN MX 10 mx.maillb.baidu.com.
+baidu.com. 31 IN MX 15 mx.n.shifen.com.
+baidu.com. 31 IN MX 20 mx50.baidu.com.
+baidu.com. 31 IN MX 20 mx1.baidu.com.
+baidu.com. 31 IN MX 20 jpmx.baidu.com.
+baidu.com. 31 IN A 111.13.101.208
+baidu.com. 31 IN A 220.181.57.216
+baidu.com. 31 IN NS ns2.baidu.com.
+baidu.com. 31 IN NS ns7.baidu.com.
+baidu.com. 31 IN NS ns4.baidu.com.
+baidu.com. 31 IN NS ns3.baidu.com.
+baidu.com. 31 IN NS dns.baidu.com.
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 1873 IN SOA dns.baidu.com. sa.baidu.com. 2012138679 300 300 2592000 7200
+baidu.com. 107 IN A 220.181.57.216
+baidu.com. 107 IN A 111.13.101.208
+baidu.com. 85812 IN NS ns3.baidu.com.
+baidu.com. 85812 IN NS ns4.baidu.com.
+baidu.com. 85812 IN NS dns.baidu.com.
+baidu.com. 85812 IN NS ns7.baidu.com.
+baidu.com. 85812 IN NS ns2.baidu.com.
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 1873 IN SOA dns.baidu.com. sa.baidu.com. 2012138679 300 300 2592000 7200
+baidu.com. 107 IN A 111.13.101.208
+baidu.com. 107 IN A 220.181.57.216
+baidu.com. 85812 IN NS ns3.baidu.com.
+baidu.com. 85812 IN NS ns4.baidu.com.
+baidu.com. 85812 IN NS dns.baidu.com.
+baidu.com. 85812 IN NS ns7.baidu.com.
+baidu.com. 85812 IN NS ns2.baidu.com.
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 1824 IN TXT "v=spf1 include:spf1.baidu.com include:spf2.baidu.com include:spf3.baidu.com a mx ptr -all"
+baidu.com. 1824 IN TXT "google-site-verification=GHb98-6msqyx_qqjGl5eRatD3QTHyVB6-xQ3gJB5UwM"
+baidu.com. 116 IN A 111.13.101.208
+baidu.com. 116 IN A 220.181.57.216
+baidu.com. 41143 IN NS ns4.baidu.com.
+baidu.com. 41143 IN NS ns2.baidu.com.
+baidu.com. 41143 IN NS ns3.baidu.com.
+baidu.com. 41143 IN NS dns.baidu.com.
+baidu.com. 41143 IN NS ns7.baidu.com.
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 5646 IN TXT "google-site-verification=GHb98-6msqyx_qqjGl5eRatD3QTHyVB6-xQ3gJB5UwM"
+baidu.com. 5646 IN TXT "v=spf1 include:spf1.baidu.com include:spf2.baidu.com include:spf3.baidu.com a mx ptr -all"
+baidu.com. 599 IN A 220.181.57.216
+baidu.com. 599 IN A 111.13.101.208
+baidu.com. 85567 IN NS dns.baidu.com.
+baidu.com. 85567 IN NS ns2.baidu.com.
+baidu.com. 85567 IN NS ns3.baidu.com.
+baidu.com. 85567 IN NS ns7.baidu.com.
+baidu.com. 85567 IN NS ns4.baidu.com.
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 31 IN TXT "google-site-verification=GHb98-6msqyx_qqjGl5eRatD3QTHyVB6-xQ3gJB5UwM"
+baidu.com. 31 IN TXT "v=spf1 include:spf1.baidu.com include:spf2.baidu.com include:spf3.baidu.com a mx ptr -all"
+baidu.com. 31 IN SOA dns.baidu.com. sa.baidu.com. 2012138675 300 300 2592000 7200
+baidu.com. 31 IN MX 10 mx.maillb.baidu.com.
+baidu.com. 31 IN MX 15 mx.n.shifen.com.
+baidu.com. 31 IN MX 20 mx50.baidu.com.
+baidu.com. 31 IN MX 20 mx1.baidu.com.
+baidu.com. 31 IN MX 20 jpmx.baidu.com.
+baidu.com. 31 IN A 111.13.101.208
+baidu.com. 31 IN A 220.181.57.216
+baidu.com. 31 IN NS ns2.baidu.com.
+baidu.com. 31 IN NS ns7.baidu.com.
+baidu.com. 31 IN NS ns4.baidu.com.
+baidu.com. 31 IN NS ns3.baidu.com.
+baidu.com. 31 IN NS dns.baidu.com.
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 86 IN A 220.181.57.216
+baidu.com. 86 IN A 111.13.101.208
+baidu.com. 86 IN NS dns.baidu.com.
+baidu.com. 86 IN NS ns2.baidu.com.
+baidu.com. 86 IN NS ns4.baidu.com.
+baidu.com. 86 IN NS ns7.baidu.com.
+baidu.com. 86 IN NS ns3.baidu.com.
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 164 IN MX 15 mx.n.shifen.com.
+baidu.com. 164 IN MX 20 mx1.baidu.com.
+baidu.com. 164 IN MX 10 mx.maillb.baidu.com.
+baidu.com. 164 IN MX 20 mx50.baidu.com.
+baidu.com. 164 IN MX 20 jpmx.baidu.com.
+baidu.com. 164 IN A 220.181.57.216
+baidu.com. 164 IN A 111.13.101.208
+baidu.com. 164 IN NS ns2.baidu.com.
+baidu.com. 164 IN NS ns4.baidu.com.
+baidu.com. 164 IN NS ns3.baidu.com.
+baidu.com. 164 IN NS dns.baidu.com.
+baidu.com. 164 IN NS ns7.baidu.com.
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 2912 IN SOA dns.baidu.com. sa.baidu.com. 2012138679 300 300 2592000 7200
+baidu.com. 457 IN A 111.13.101.208
+baidu.com. 457 IN A 220.181.57.216
+baidu.com. 5780 IN NS ns4.baidu.com.
+baidu.com. 5780 IN NS ns3.baidu.com.
+baidu.com. 5780 IN NS ns7.baidu.com.
+baidu.com. 5780 IN NS dns.baidu.com.
+baidu.com. 5780 IN NS ns2.baidu.com.
+;AUTHORITY
+;ADDITIONAL
+dns.baidu.com. 49317 IN A 202.108.22.220
+ns2.baidu.com. 49107 IN A 61.135.165.235
+ns3.baidu.com. 6116 IN A 220.181.37.10
+ns4.baidu.com. 37198 IN A 220.181.38.10
+ns7.baidu.com. 37293 IN A 180.76.76.92id 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 7200 IN SOA dns.baidu.com. sa.baidu.com. 2012138679 300 300 2592000 7200
+baidu.com. 7200 IN TXT "google-site-verification=GHb98-6msqyx_qqjGl5eRatD3QTHyVB6-xQ3gJB5UwM"
+baidu.com. 7200 IN TXT "v=spf1 include:spf1.baidu.com include:spf2.baidu.com include:spf3.baidu.com a mx ptr -all"
+baidu.com. 7200 IN MX 20 mx1.baidu.com.
+baidu.com. 7200 IN MX 20 jpmx.baidu.com.
+baidu.com. 7200 IN MX 20 mx50.baidu.com.
+baidu.com. 7200 IN MX 10 mx.maillb.baidu.com.
+baidu.com. 7200 IN MX 15 mx.n.shifen.com.
+baidu.com. 600 IN A 111.13.101.208
+baidu.com. 600 IN A 220.181.57.216
+baidu.com. 86400 IN NS ns3.baidu.com.
+baidu.com. 86400 IN NS dns.baidu.com.
+baidu.com. 86400 IN NS ns2.baidu.com.
+baidu.com. 86400 IN NS ns7.baidu.com.
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 7200 IN SOA dns.baidu.com. sa.baidu.com. 2012138679 300 300 2592000 7200
+baidu.com. 7200 IN TXT "google-site-verification=GHb98-6msqyx_qqjGl5eRatD3QTHyVB6-xQ3gJB5UwM"
+baidu.com. 7200 IN TXT "v=spf1 include:spf1.baidu.com include:spf2.baidu.com include:spf3.baidu.com a mx ptr -all"
+baidu.com. 7200 IN MX 20 mx1.baidu.com.
+baidu.com. 7200 IN MX 20 jpmx.baidu.com.
+baidu.com. 7200 IN MX 20 mx50.baidu.com.
+baidu.com. 7200 IN MX 10 mx.maillb.baidu.com.
+baidu.com. 7200 IN MX 15 mx.n.shifen.com.
+baidu.com. 600 IN A 111.13.101.208
+baidu.com. 600 IN A 220.181.57.216
+baidu.com. 86400 IN NS ns3.baidu.com.
+baidu.com. 86400 IN NS dns.baidu.com.
+baidu.com. 86400 IN NS ns2.baidu.com.
+baidu.com. 86400 IN NS ns7.baidu.com.
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 7200 IN SOA dns.baidu.com. sa.baidu.com. 2012138679 300 300 2592000 7200
+baidu.com. 7200 IN TXT "v=spf1 include:spf1.baidu.com include:spf2.baidu.com include:spf3.baidu.com a mx ptr -all"
+baidu.com. 7200 IN TXT "google-site-verification=GHb98-6msqyx_qqjGl5eRatD3QTHyVB6-xQ3gJB5UwM"
+baidu.com. 7200 IN MX 20 mx50.baidu.com.
+baidu.com. 7200 IN MX 10 mx.maillb.baidu.com.
+baidu.com. 7200 IN MX 15 mx.n.shifen.com.
+baidu.com. 7200 IN MX 20 mx1.baidu.com.
+baidu.com. 7200 IN MX 20 jpmx.baidu.com.
+baidu.com. 600 IN A 220.181.57.216
+baidu.com. 600 IN A 111.13.101.208
+baidu.com. 86400 IN NS ns3.baidu.com.
+baidu.com. 86400 IN NS ns7.baidu.com.
+baidu.com. 86400 IN NS dns.baidu.com.
+baidu.com. 86400 IN NS ns4.baidu.com.
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 7200 IN SOA dns.baidu.com. sa.baidu.com. 2012138679 300 300 2592000 7200
+baidu.com. 86400 IN NS ns7.baidu.com.
+baidu.com. 86400 IN NS ns4.baidu.com.
+baidu.com. 86400 IN NS ns3.baidu.com.
+baidu.com. 86400 IN NS ns2.baidu.com.
+baidu.com. 86400 IN NS dns.baidu.com.
+baidu.com. 600 IN A 111.13.101.208
+baidu.com. 600 IN A 220.181.57.216
+baidu.com. 7200 IN MX 20 mx50.baidu.com.
+baidu.com. 7200 IN MX 10 mx.maillb.baidu.com.
+baidu.com. 7200 IN MX 15 mx.n.shifen.com.
+baidu.com. 7200 IN MX 20 mx1.baidu.com.
+baidu.com. 7200 IN MX 20 jpmx.baidu.com.
+baidu.com. 7200 IN TXT "google-site-verification=GHb98-6msqyx_qqjGl5eRatD3QTHyVB6-xQ3gJB5UwM"
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 154 IN A 111.13.101.208
+baidu.com. 154 IN A 220.181.57.216
+baidu.com. 2893 IN MX 15 mx.n.shifen.com.
+baidu.com. 2893 IN MX 20 mx1.baidu.com.
+baidu.com. 2893 IN MX 10 mx.maillb.baidu.com.
+baidu.com. 2893 IN MX 20 jpmx.baidu.com.
+baidu.com. 2893 IN MX 20 mx50.baidu.com.
+baidu.com. 79032 IN NS ns4.baidu.com.
+baidu.com. 79032 IN NS dns.baidu.com.
+baidu.com. 79032 IN NS ns3.baidu.com.
+baidu.com. 79032 IN NS ns7.baidu.com.
+baidu.com. 79032 IN NS ns2.baidu.com.
+;AUTHORITY
+;ADDITIONAL
+dns.baidu.com. 72225 IN A 202.108.22.220
+ns2.baidu.com. 72236 IN A 61.135.165.235
+ns3.baidu.com. 162451 IN A 220.181.37.10
+ns4.baidu.com. 12956 IN A 220.181.38.10
+ns7.baidu.com. 67729 IN A 180.76.76.92id 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 7200 IN SOA dns.baidu.com. sa.baidu.com. 2012138679 300 300 2592000 7200
+baidu.com. 7200 IN TXT "v=spf1 include:spf1.baidu.com include:spf2.baidu.com include:spf3.baidu.com a mx ptr -all"
+baidu.com. 7200 IN TXT "google-site-verification=GHb98-6msqyx_qqjGl5eRatD3QTHyVB6-xQ3gJB5UwM"
+baidu.com. 7200 IN MX 20 mx50.baidu.com.
+baidu.com. 7200 IN MX 10 mx.maillb.baidu.com.
+baidu.com. 7200 IN MX 15 mx.n.shifen.com.
+baidu.com. 7200 IN MX 20 mx1.baidu.com.
+baidu.com. 7200 IN MX 20 jpmx.baidu.com.
+baidu.com. 600 IN A 220.181.57.216
+baidu.com. 600 IN A 111.13.101.208
+baidu.com. 86400 IN NS dns.baidu.com.
+baidu.com. 86400 IN NS ns7.baidu.com.
+baidu.com. 86400 IN NS ns4.baidu.com.
+baidu.com. 86400 IN NS ns2.baidu.com.
+baidu.com. 86400 IN NS ns3.baidu.com.
+;AUTHORITY
+;ADDITIONAL
+mx1.baidu.com. 300 IN A 220.181.50.185
+mx1.baidu.com. 300 IN A 61.135.165.120
+jpmx.baidu.com. 7200 IN A 61.208.132.13
+mx50.baidu.com. 300 IN A 180.76.13.18
+dns.baidu.com. 86400 IN A 202.108.22.220
+ns2.baidu.com. 86400 IN A 61.135.165.235
+ns3.baidu.com. 86400 IN A 220.181.37.10
+ns4.baidu.com. 86400 IN A 220.181.38.10
+ns7.baidu.com. 86400 IN A 180.76.76.92id 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 513 IN NS ns3.baidu.com.
+baidu.com. 513 IN NS ns2.baidu.com.
+baidu.com. 513 IN NS dns.baidu.com.
+baidu.com. 513 IN NS ns4.baidu.com.
+baidu.com. 513 IN NS ns7.baidu.com.
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 164 IN NS ns2.baidu.com.
+baidu.com. 164 IN NS ns7.baidu.com.
+baidu.com. 164 IN NS dns.baidu.com.
+baidu.com. 164 IN NS ns4.baidu.com.
+baidu.com. 164 IN NS ns3.baidu.com.
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 35 IN A 111.13.101.208
+baidu.com. 35 IN A 220.181.57.216
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 35 IN A 111.13.101.208
+baidu.com. 35 IN A 220.181.57.216
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 325 IN AAAA 2400:a980:fd:b::6f0d:65d0
+baidu.com. 325 IN AAAA 2400:a980:fd:b::dcb5:39d8
+baidu.com. 35 IN A 111.13.101.208
+baidu.com. 35 IN A 220.181.57.216
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 34 IN A 111.13.101.208
+baidu.com. 34 IN A 220.181.57.216
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 60 IN A 111.13.101.208
+baidu.com. 60 IN A 220.181.57.216
+baidu.com. 1659 IN MX 20 mx1.baidu.com.
+baidu.com. 1659 IN MX 20 jpmx.baidu.com.
+baidu.com. 1659 IN MX 20 mx50.baidu.com.
+baidu.com. 1659 IN MX 10 mx.maillb.baidu.com.
+baidu.com. 1659 IN MX 15 mx.n.shifen.com.
+baidu.com. 38399 IN NS ns3.baidu.com.
+baidu.com. 38399 IN NS dns.baidu.com.
+baidu.com. 38399 IN NS ns7.baidu.com.
+baidu.com. 38399 IN NS ns4.baidu.com.
+baidu.com. 38399 IN NS ns2.baidu.com.
+baidu.com. 7180 IN SOA dns.baidu.com. sa.baidu.com. 2012138679 300 300 2592000 7200
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 368 IN A 220.181.57.216
+baidu.com. 368 IN A 111.13.101.208
+baidu.com. 3161 IN MX 20 mx1.baidu.com.
+baidu.com. 3161 IN MX 20 jpmx.baidu.com.
+baidu.com. 3161 IN MX 20 mx50.baidu.com.
+baidu.com. 3161 IN MX 10 mx.maillb.baidu.com.
+baidu.com. 3161 IN MX 15 mx.n.shifen.com.
+baidu.com. 41048 IN NS ns4.baidu.com.
+baidu.com. 41048 IN NS ns3.baidu.com.
+baidu.com. 41048 IN NS ns7.baidu.com.
+baidu.com. 41048 IN NS dns.baidu.com.
+baidu.com. 41048 IN NS ns2.baidu.com.
+baidu.com. 7190 IN SOA dns.baidu.com. sa.baidu.com. 2012138679 300 300 2592000 7200
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 353 IN A 111.13.101.208
+baidu.com. 353 IN A 220.181.57.216
+baidu.com. 32473 IN NS dns.baidu.com.
+baidu.com. 32473 IN NS ns2.baidu.com.
+baidu.com. 32473 IN NS ns3.baidu.com.
+baidu.com. 32473 IN NS ns4.baidu.com.
+baidu.com. 32473 IN NS ns7.baidu.com.
+baidu.com. 7154 IN SOA dns.baidu.com. sa.baidu.com. 2012138679 300 300 2592000 7200
+;AUTHORITY
+;ADDITIONALid 63513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+baidu.com. IN ANY
+;ANSWER
+baidu.com. 59 IN A 220.181.57.216
+baidu.com. 59 IN A 111.13.101.208
+baidu.com. 1658 IN MX 20 mx1.baidu.com.
+baidu.com. 1658 IN MX 20 jpmx.baidu.com.
+baidu.com. 1658 IN MX 20 mx50.baidu.com.
+baidu.com. 1658 IN MX 10 mx.maillb.baidu.com.
+baidu.com. 1658 IN MX 15 mx.n.shifen.com.
+baidu.com. 38398 IN NS ns3.baidu.com.
+baidu.com. 38398 IN NS dns.baidu.com.
+baidu.com. 38398 IN NS ns7.baidu.com.
+baidu.com. 38398 IN NS ns4.baidu.com.
+baidu.com. 38398 IN NS ns2.baidu.com.
+baidu.com. 7179 IN SOA dns.baidu.com. sa.baidu.com. 2012138679 300 300 2592000 7200
+;AUTHORITY
+;ADDITIONAL

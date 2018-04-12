@@ -1,0 +1,1497 @@
+google.com 114.114.114.114id 39390
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 31 IN A 172.217.160.78
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 114.114.115.115id 4240
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 147 IN A 172.217.27.142
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 114.114.114.119id 65069
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 151 IN A 216.58.200.238
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 114.114.115.119id 44502
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 148 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 114.114.114.110id 42858
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 147 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 114.114.115.110id 30804
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 261 IN A 172.217.160.78
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 223.5.5.5id 18472
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 15 IN A 172.217.24.14
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 223.6.6.6id 37622
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 15 IN A 172.217.24.14
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 180.76.76.76id 56396
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 234 IN A 172.217.160.78
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 119.29.29.29id 59138
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 242 IN A 172.217.161.174
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 119.28.28.28id 4374
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 242 IN A 172.217.161.174
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 182.254.118.118id 55819
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 140 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 182.254.116.116id 21052
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 140 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 1.2.4.8id 57273
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 113 IN A 172.217.160.110
+;AUTHORITY
+google.com. 71740 IN NS ns4.google.com.
+google.com. 71740 IN NS ns3.google.com.
+google.com. 71740 IN NS ns2.google.com.
+google.com. 71740 IN NS ns1.google.com.
+;ADDITIONAL
+ns1.google.com. 323888 IN A 216.239.32.10
+ns2.google.com. 342203 IN A 216.239.34.10
+ns3.google.com. 327214 IN A 216.239.36.10
+ns4.google.com. 344299 IN A 216.239.38.10
+ns1.google.com. 321077 IN AAAA 2001:4860:4802:32::a
+ns2.google.com. 319334 IN AAAA 2001:4860:4802:34::a
+ns3.google.com. 338671 IN AAAA 2001:4860:4802:36::a
+ns4.google.com. 320603 IN AAAA 2001:4860:4802:38::a[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 210.2.4.8id 55979
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 247 IN A 172.217.24.14
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 112.124.47.27id 52330
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 120 IN A 172.217.31.238
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 114.215.126.16id 15009
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 86 IN A 172.217.31.238
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 101.226.4.6id 28713
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 196 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 218.30.118.6id 23598
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 60 IN A 216.58.221.238
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 123.125.81.6id 33853
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 249 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 140.207.198.6id 30101
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 60 IN A 216.58.221.238
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 208.67.222.222id 32585
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 300 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 208.67.220.220id 24419
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 300 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 208.67.222.123id 34515
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 300 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 208.67.220.123id 33573
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 300 IN A 172.217.24.14
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 123.207.137.88id 11496
+opcode QUERY
+rcode NOERROR
+flags QR AA RD RA
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 72000 IN A 111.67.201.52
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 202.141.162.123id 3517
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 300 IN A 216.58.200.238
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 202.141.178.13id 27951
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 300 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 202.38.93.153id 47106
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 300 IN A 172.217.27.142
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 101.132.183.99id 27167
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 16384
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 7200 IN A 216.58.220.206
+;AUTHORITY
+;ADDITIONALExceptionThe DNS operation timed out.
+----------
+google.com 119.23.248.241id 48876
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 300 IN A 216.58.200.23
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 63.223.94.66id 26782
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 109 IN A 216.58.193.78
+;AUTHORITY
+google.com. 59976 IN NS ns3.google.com.
+google.com. 59976 IN NS ns4.google.com.
+google.com. 59976 IN NS ns1.google.com.
+google.com. 59976 IN NS ns2.google.com.
+;ADDITIONAL
+ns1.google.com. 233170 IN A 216.239.32.10
+ns1.google.com. 59550 IN AAAA 2001:4860:4802:32::a
+ns3.google.com. 233329 IN A 216.239.36.10
+ns3.google.com. 67133 IN AAAA 2001:4860:4802:36::a
+ns4.google.com. 233329 IN A 216.239.38.10
+ns4.google.com. 63021 IN AAAA 2001:4860:4802:38::a
+ns2.google.com. 233329 IN A 216.239.34.10
+ns2.google.com. 63747 IN AAAA 2001:4860:4802:34::a[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 123.206.61.167id 65346
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 300 IN A 172.217.24.14
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 119.29.105.234id 42751
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 300 IN A 172.217.160.78
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 101.236.28.23id 61993
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 223 IN A 172.217.27.142
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 120.77.212.84id 60102
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 1280
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 140 IN A 172.217.27.142
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 203.80.96.10id 18445
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 284 IN A 216.58.199.110
+;AUTHORITY
+google.com. 152315 IN NS ns4.google.com.
+google.com. 152315 IN NS ns1.google.com.
+google.com. 152315 IN NS ns3.google.com.
+google.com. 152315 IN NS ns2.google.com.
+;ADDITIONAL
+ns1.google.com. 152443 IN A 216.239.32.10
+ns1.google.com. 62578 IN AAAA 2001:4860:4802:32::a
+ns2.google.com. 152443 IN A 216.239.34.10
+ns2.google.com. 61150 IN AAAA 2001:4860:4802:34::a
+ns4.google.com. 152443 IN A 216.239.38.10
+ns4.google.com. 57733 IN AAAA 2001:4860:4802:38::a
+ns3.google.com. 152443 IN A 216.239.36.10
+ns3.google.com. 57733 IN AAAA 2001:4860:4802:36::a[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 8.8.8.8id 6095
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 512
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 66 IN A 172.217.24.14
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 8.8.4.4id 64177
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 512
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 190 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 4.2.2.1id 14122
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 8192
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 27 IN A 172.217.4.174
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 4.2.2.2id 6318
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 8192
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 1 IN A 172.217.14.110
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 9.9.9.9id 62611
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 89 IN A 74.125.200.101
+google.com. 89 IN A 74.125.200.138
+google.com. 89 IN A 74.125.200.113
+google.com. 89 IN A 74.125.200.139
+google.com. 89 IN A 74.125.200.102
+google.com. 89 IN A 74.125.200.100
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 8.26.56.26id 15878
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 222 IN A 172.217.17.238
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 8.20.247.20id 23895
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 210 IN A 172.217.11.14
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 156.154.70.1id 32230
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 107 IN A 216.58.197.174
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 156.154.71.1id 11894
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 177 IN A 216.58.195.78
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 199.85.126.10id 57482
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 105 IN A 216.58.197.174
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 199.85.127.10id 25088
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 175 IN A 216.58.195.78
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 1.1.1.1id 55233
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1536
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 119 IN A 172.217.27.46
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+google.com 101.6.6.6id 53135
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+google.com. IN A
+;ANSWER
+google.com. 201 IN A 216.58.200.238
+;AUTHORITY
+;ADDITIONAL[<DNS google.com. IN AAAA RRset>]
+----------
+youtube.com 114.114.114.114id 35269
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 31 IN A 59.24.3.173
+;AUTHORITY
+;ADDITIONAL[]
+----------
+youtube.com 114.114.115.115id 49805
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 37 IN A 243.185.187.39
+;AUTHORITY
+;ADDITIONAL[]
+----------
+youtube.com 114.114.114.119id 28496
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 138 IN A 8.7.198.45
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 114.114.115.119id 65254
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 36 IN A 203.98.7.65
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 114.114.114.110id 40574
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 34 IN A 8.7.198.45
+;AUTHORITY
+;ADDITIONAL[]
+----------
+youtube.com 114.114.115.110id 58688
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 200 IN A 59.24.3.173
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 223.5.5.5id 16831
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 112 IN A 243.185.187.39
+;AUTHORITY
+;ADDITIONAL[]
+----------
+youtube.com 223.6.6.6id 50363
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 110 IN A 243.185.187.39
+;AUTHORITY
+;ADDITIONAL[]
+----------
+youtube.com 180.76.76.76id 27244
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 127 IN A 59.24.3.173
+;AUTHORITY
+;ADDITIONAL[]
+----------
+youtube.com 119.29.29.29id 45165
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 184 IN A 59.24.3.173
+;AUTHORITY
+;ADDITIONAL[]
+----------
+youtube.com 119.28.28.28id 4457
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 183 IN A 59.24.3.173
+;AUTHORITY
+;ADDITIONAL[]
+----------
+youtube.com 182.254.118.118id 18089
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 223 IN A 8.7.198.45
+;AUTHORITY
+;ADDITIONAL[]
+----------
+youtube.com 182.254.116.116id 18181
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 222 IN A 8.7.198.45
+;AUTHORITY
+;ADDITIONAL[]
+----------
+youtube.com 1.2.4.8id 3594
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 9 IN A 243.185.187.39
+;AUTHORITY
+youtube.com. 6231 IN NS ns2.google.com.
+youtube.com. 6231 IN NS ns3.google.com.
+youtube.com. 6231 IN NS ns4.google.com.
+youtube.com. 6231 IN NS ns1.google.com.
+;ADDITIONAL
+ns1.google.com. 323827 IN A 216.239.32.10
+ns2.google.com. 342142 IN A 216.239.34.10
+ns3.google.com. 327153 IN A 216.239.36.10
+ns4.google.com. 344238 IN A 216.239.38.10
+ns1.google.com. 321016 IN AAAA 2001:4860:4802:32::a
+ns2.google.com. 319273 IN AAAA 2001:4860:4802:34::a
+ns3.google.com. 338610 IN AAAA 2001:4860:4802:36::a
+ns4.google.com. 320542 IN AAAA 2001:4860:4802:38::a[]
+----------
+youtube.com 210.2.4.8id 55549
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 98 IN A 203.98.7.65
+;AUTHORITY
+;ADDITIONAL[]
+----------
+youtube.com 112.124.47.27id 59958
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 15 IN A 59.24.3.173
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 114.215.126.16id 7711
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 15 IN A 59.24.3.173
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 101.226.4.6id 19899
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 60 IN A 216.58.200.46
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 218.30.118.6id 26513
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 60 IN A 172.217.160.78
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 123.125.81.6id 10694
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 60 IN A 243.185.187.39
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 140.207.198.6id 39462
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 60 IN A 59.24.3.173
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 208.67.222.222id 56243
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 108 IN A 243.185.187.39
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 208.67.220.220id 56144
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 235 IN A 203.98.7.65
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 208.67.222.123id 8017
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 95 IN A 243.185.187.39
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 208.67.220.123id 20296
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 119 IN A 8.7.198.45
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 123.207.137.88id 46710
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 21600 IN A 172.217.160.78
+;AUTHORITY
+;ADDITIONAL[]
+----------
+youtube.com 202.141.162.123id 25061
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 300 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONALExceptionThe DNS operation timed out.
+----------
+youtube.com 202.141.178.13id 2023
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 289 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 202.38.93.153id 64039
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 289 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 101.132.183.99id 58547
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 16384
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 7200 IN A 216.58.220.206
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 119.23.248.241id 50693
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 1280
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 300 IN A 108.177.125.136
+;AUTHORITY
+;ADDITIONAL[]
+----------
+youtube.com 63.223.94.66id 56107
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 205 IN A 8.7.198.45
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 123.206.61.167id 20103
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 1280
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 300 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 119.29.105.234ExceptionThe DNS operation timed out.[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 101.236.28.23id 65091
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 60 IN A 243.185.187.39
+;AUTHORITY
+;ADDITIONAL[]
+----------
+youtube.com 120.77.212.84id 56922
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 1280
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 300 IN A 216.58.200.238
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 203.80.96.10id 50231
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 126 IN A 59.24.3.173
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 8.8.8.8id 57887
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 115 IN A 59.24.3.173
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 8.8.4.4id 45792
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 86 IN A 203.98.7.65
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 4.2.2.1id 4119
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 213 IN A 203.98.7.65
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 4.2.2.2id 37502
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 97 IN A 8.7.198.45
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 9.9.9.9id 11351
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 207 IN A 243.185.187.39
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 8.26.56.26id 21345
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 109 IN A 8.7.198.45
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+youtube.com 8.20.247.20id 29371
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 166 IN A 203.98.7.65
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 156.154.70.1id 31765
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 197 IN A 203.98.7.65
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 156.154.71.1id 16185
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 98 IN A 8.7.198.45
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 199.85.126.10id 22861
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 215 IN A 203.98.7.65
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 199.85.127.10id 62621
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 213 IN A 8.7.198.45
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 1.1.1.1id 17457
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 231 IN A 203.98.7.65
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN A RRset>]
+----------
+youtube.com 101.6.6.6id 19408
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+youtube.com. IN A
+;ANSWER
+youtube.com. 300 IN A 172.217.160.110
+;AUTHORITY
+;ADDITIONAL[<DNS youtube.com. IN AAAA RRset>]
+----------
+facebook.com 114.114.114.114id 643
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+facebook.com. IN A
+;ANSWER
+facebook.com. 31 IN A 75.126.135.131
+;AUTHORITY
+;ADDITIONAL[]
+----------
+facebook.com 114.114.115.115id 43882
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+facebook.com. IN A
+;ANSWER
+facebook.com. 45 IN A 31.13.66.1
+;AUTHORITY
+;ADDITIONAL[]
+----------
+facebook.com 114.114.114.119id 33497
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+facebook.com. IN A
+;ANSWER
+facebook.com. 44 IN A 31.13.66.1
+;AUTHORITY
+;ADDITIONAL[]
+----------
+facebook.com 114.114.115.119id 18430
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+facebook.com. IN A
+;ANSWER
+facebook.com. 36 IN A 75.126.215.88
+;AUTHORITY
+;ADDITIONAL[]
+----------
+facebook.com 114.114.114.110id 45158
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 1280
+;QUESTION
+facebook.com. IN A
+;ANSWER
+facebook.com. 34 IN A 75.126.150.210
+;AUTHORITY
+;ADDITIONAL[]
+----------
+facebook.com 114.114.115.110id 38798
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+payload 4096
+;QUESTION
+facebook.com. IN A
+;ANSWER
+facebook.com. 33 IN A 66.220.152.17
+;AUTHORITY
+;ADDITIONAL[]
+----------
+facebook.com 223.5.5.5id 52757
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+facebook.com. IN A
+;ANSWER
+facebook.com. 15 IN A 69.171.234.18
+;AUTHORITY
+;ADDITIONAL[]
+----------
+facebook.com 223.6.6.6id 19894
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+facebook.com. IN A
+;ANSWER
+facebook.com. 110 IN A 75.126.215.88
+;AUTHORITY
+;ADDITIONAL[]
+----------
+facebook.com 180.76.76.76id 1579
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+facebook.com. IN A
+;ANSWER
+facebook.com. 107 IN A 69.171.247.32
+;AUTHORITY
+;ADDITIONALExceptionThe DNS operation timed out.
+----------
+facebook.com 119.29.29.29ExceptionThe DNS operation timed out.ExceptionThe DNS operation timed out.
+----------
+facebook.com 119.28.28.28ExceptionThe DNS operation timed out.ExceptionThe DNS operation timed out.
+----------
+facebook.com 182.254.118.118ExceptionThe DNS operation timed out.ExceptionThe DNS operation timed out.
+----------
+facebook.com 182.254.116.116ExceptionThe DNS operation timed out.ExceptionThe DNS operation timed out.
+----------
+facebook.com 1.2.4.8ExceptionThe DNS operation timed out.ExceptionThe DNS operation timed out.
+----------
+facebook.com 210.2.4.8ExceptionThe DNS operation timed out.ExceptionThe DNS operation timed out.
+----------
+facebook.com 112.124.47.27ExceptionThe DNS operation timed out.ExceptionThe DNS operation timed out.
+----------
+facebook.com 114.215.126.16
