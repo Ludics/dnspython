@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 # coding=utf-8
 
 import csv
@@ -12,8 +12,11 @@ import dns.exception
 import pymysql
 
 resolver_filename = "./sdata/opendns.csv"
-domain_filename = "./sdata/top-10k.csv"
-query_file = open("./dnsdata/query_file_tcp.txt", "w+")
+
+domain_filename = "./mysites.csv"
+# domain_filename = "./sdata/top-10k.csv"
+
+query_file = open("./dnsdata/query_file4.txt", "w+")
 
 resolver_file = open(resolver_filename, "r")
 domain_file = open(domain_filename, "r")
@@ -28,7 +31,8 @@ db = pymysql.connect(host="127.0.0.1", user="root", passwd="ludics", db="dnsdata
 # cursor = db.cursor(cursor=pymysql.cursors.DictCursor)
 
 
-for m in range(20, 30):
+
+for m in range(0, 2):
     for n in range(0, len(resolvers)):
         cursor = db.cursor(cursor=pymysql.cursors.DictCursor)
         aNum = 0
@@ -39,14 +43,13 @@ for m in range(20, 30):
         ttl = 0
         addr = '0.0.0.0'
         t_pos = [0,0,0,0]
-        protocolType = 1
         print(domains[m][1]+" "+resolvers[n][0])
         query_file.write(domains[m][1]+" "+resolvers[n][0]+"\n")
         try:
             request = dns.message.make_query(domains[m][1], 
                                              dns.rdatatype.A, 
                                              want_dnssec=True)
-            response = dns.query.tcp(request, resolvers[n][0], timeout=10)
+            response = dns.query.udp(request, resolvers[n][0], timeout=3)
             answer = response.answer
             for m1 in range(0, len(answer)):
                 if answer[m1].to_rdataset().rdtype == dns.rdatatype.A:
@@ -58,9 +61,9 @@ for m in range(20, 30):
                 elif answer[m1].to_rdataset().rdtype == dns.rdatatype.RRSIG:
                     hasDnssec = 1
 
-            sql = "INSERT INTO query(domainName, resolverAddr, aNum, cnameNum, hasDnssec, protocolType) \
-                    VALUES ('%s', '%s', '%d', '%d', '%d', '%d')" % \
-                    (domains[m][1], resolvers[n][0], aNum, cnameNum, hasDnssec, protocolType)
+            sql = "INSERT INTO query(domainName, resolverAddr, aNum, cnameNum, hasDnssec) \
+                    VALUES ('%s', '%s', '%d', '%d', '%d')" % \
+                    (domains[m][1], resolvers[n][0], aNum, cnameNum, hasDnssec)
             # cursor.execute(sql)
             # db.commit()
             try:
@@ -75,9 +78,9 @@ for m in range(20, 30):
                 for m1 in range(0, len(answer[t_pos[0]])):
                     ttl = answer[t_pos[0]].to_rdataset().ttl
                     addr = answer[t_pos[0]][m1]
-                    sql = "INSERT INTO a_record (queryID, domainName, resolverAddr, ttl, addr, protocolType) \
-                            VALUES ('%d', '%s', '%s', '%d', '%s', '%d')" % \
-                            (query_id, domains[m][1], resolvers[n][0], ttl, addr, protocolType)
+                    sql = "INSERT INTO a_record (queryID, domainName, resolverAddr, ttl, addr) \
+                            VALUES ('%d', '%s', '%s', '%d', '%s')" % \
+                            (query_id, domains[m][1], resolvers[n][0], ttl, addr)
                     # cursor.execute(sql)
                     # db.commit()
                     try:
@@ -90,9 +93,9 @@ for m in range(20, 30):
                 for m1 in range(0, len(answer[t_pos[1]])):
                     ttl = answer[t_pos[1]].to_rdataset().ttl
                     cnameData = answer[t_pos[1]][m1]
-                    sql = "INSERT INTO cname_record (queryID, domainName, resolverAddr, ttl, cnameData, protocolType) \
-                            VALUES ('%d', '%s', '%s', '%d', '%s', '%d')" % \
-                            (query_id, domains[m][1], resolvers[n][0], ttl, cnameData, protocolType)
+                    sql = "INSERT INTO cname_record (queryID, domainName, resolverAddr, ttl, cnameData) \
+                            VALUES ('%d', '%s', '%s', '%d', '%s')" % \
+                            (query_id, domains[m][1], resolvers[n][0], ttl, cnameData)
                     # cursor.execute(sql)
                     # db.commit()
                 try:
@@ -102,9 +105,9 @@ for m in range(20, 30):
                     db.rollback()        
             query_file.write("\n"+response.to_text()+"\n")
         except dns.exception.DNSException as e:
-            sql = "INSERT INTO timeout_record (domainName, resolverAddr, exceptionData, protocolType) \
-                        VALUES ('%s', '%s', '%s', '%d')" % \
-                        (domains[m][1], resolvers[n][0], str(e), protocolType)
+            sql = "INSERT INTO timeout_record (domainName, resolverAddr, exceptionData) \
+                        VALUES ('%s', '%s', '%s')" % \
+                        (domains[m][1], resolvers[n][0], str(e))
             # cursor.execute(sql)
             # db.commit()
             try:
@@ -118,7 +121,7 @@ for m in range(20, 30):
             request = dns.message.make_query(domains[m][1], 
                                              dns.rdatatype.AAAA, 
                                              want_dnssec=True)
-            response = dns.query.tcp(request, resolvers[n][0], timeout=10)
+            response = dns.query.udp(request, resolvers[n][0], timeout=3)
 
             answer = response.answer
             for m1 in range(0, len(answer)):
@@ -139,9 +142,9 @@ for m in range(20, 30):
                 for m1 in range(0, len(answer[t_pos[2]])):
                     ttl = answer[t_pos[2]].to_rdataset().ttl
                     addr = answer[t_pos[2]][m1]
-                    sql = "INSERT INTO aaaa_record (queryID, domainName, resolverAddr, ttl, addr, protocolType) \
-                        VALUES ('%d', '%s', '%s', '%d', '%s', '%d')" % \
-                        (query_id, domains[m][1], resolvers[n][0], ttl, addr, protocolType)
+                    sql = "INSERT INTO aaaa_record (queryID, domainName, resolverAddr, ttl, addr) \
+                        VALUES ('%d', '%s', '%s', '%d', '%s')" % \
+                        (query_id, domains[m][1], resolvers[n][0], ttl, addr)
                     # cursor.execute(sql)
                     # db.commit()
                     try:
@@ -152,9 +155,9 @@ for m in range(20, 30):
 
             query_file.write("\n"+response.to_text()+"\n")
         except dns.exception.DNSException as e: 
-            sql = "INSERT INTO timeout_record (domainName, resolverAddr, exceptionData, protocolType) \
-                        VALUES ('%s', '%s', '%s', '%d')" % \
-                        (domains[m][1], resolvers[n][0], str(e), protocolType)
+            sql = "INSERT INTO timeout_record (domainName, resolverAddr, exceptionData) \
+                        VALUES ('%s', '%s', '%s')" % \
+                        (domains[m][1], resolvers[n][0], str(e))
             # cursor.execute(sql)
             # db.commit()
             try:
